@@ -20,7 +20,7 @@ public class Listners extends BaseTest implements ITestListener{
 //	public ExtentReports extentReport =ReportsUtility.getExtentReporterObject();
 //	public ExtentTest test;
 //	public ThreadLocal<ExtentTest> extentTest;
-//	static int count=1;
+	static int count=1;
 	@Override
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
@@ -62,9 +62,9 @@ public class Listners extends BaseTest implements ITestListener{
 			e.printStackTrace();
 		} 
 		
-//		String screenshotName=result.getMethod().getMethodName()+""+count++;
+		String screenshotName=result.getMethod().getMethodName()+""+count++;
 		try {
-			filePath=getScreenshot(result.getMethod().getMethodName(), driver);
+			filePath=getScreenshot(screenshotName, driver);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

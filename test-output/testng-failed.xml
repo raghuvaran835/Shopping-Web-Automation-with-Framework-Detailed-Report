@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="TestComponents.Listners"/>
+  </listeners>
+  <test thread-count="5" parallel="methods" name="Test(failed)">
     <classes>
       <class name="DemoWebShopAutomation.LoginTest">
         <methods>
+          <include name="loginUser" invocation-numbers="2 3"/>
           <include name="closeApplication"/>
-          <include name="loginUser"/>
           <include name="launchApplication"/>
           <include name="saveReport"/>
           <include name="setupReport"/>
         </methods>
       </class> <!-- DemoWebShopAutomation.LoginTest -->
+      <class name="DemoWebShopAutomation.RegisterTest">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="launchApplication"/>
+          <include name="RegisterUser" invocation-numbers="4 5"/>
+          <include name="saveReport"/>
+          <include name="setupReport"/>
+        </methods>
+      </class> <!-- DemoWebShopAutomation.RegisterTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

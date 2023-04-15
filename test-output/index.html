@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\raghuvr\AppData\Local\Temp\testng-eclipse-296409870\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\raghuvr\Documents\Eclipse_Workspace\DemoWebShopAutomation\testsuites\Regression.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
-                    <span>1 group</span>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>3 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,21 +92,80 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">11 methods, 4 failed,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
                     <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="DemoWebShopAutomation.LoginTest" class="method navigator-link" hash-for-method="loginUser">loginUser</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShopAutomation.RegisterTest" class="method navigator-link" hash-for-method="RegisterUser(user6, Password Mis Match, Sheetal, Raj, Female, ratest9@gmail.com, Test@1234, Test@5678)">RegisterUser(user6, Password Mis Match, Sheetal, Raj, Female, ratest9@gmail.com, Test@1234, Test@5678)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShopAutomation.RegisterTest" class="method navigator-link" hash-for-method="RegisterUser(user5, Already Existing User, Lokesh, waran, Male, ratest1@gmail.com, Test@1234, Test@1234)">RegisterUser(user5, Already Existing User, Lokesh, waran, Male, ratest1@gmail.com, Test@1234, Test@1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShopAutomation.LoginTest" class="method navigator-link" hash-for-method="loginUser(User4, invalid, ratest4@gmail.com, Test@1237)">loginUser(User4, invalid, ratest4@gmail.com, Test@1237)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShopAutomation.LoginTest" class="method navigator-link" hash-for-method="loginUser(User3, invalid, ratest3@gmail.com, Test@1236)">loginUser(User3, invalid, ratest3@gmail.com, Test@1236)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShopAutomation.RegisterTest" class="method navigator-link" hash-for-method="RegisterUser(user3, valid details, Virat, Kohli, Male, ratest21@gmail.com, Test@1234, Test@1234)">RegisterUser(user3, valid details, Virat, Kohli, Male, ratest21@gmail.com, Test@1234, Test@1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShopAutomation.RegisterTest" class="method navigator-link" hash-for-method="RegisterUser(user2, valid details, chamira, xyz, Female, ratest20@gmail.com, Test@1234, Test@1234)">RegisterUser(user2, valid details, chamira, xyz, Female, ratest20@gmail.com, Test@1234, Test@1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShopAutomation.RegisterTest" class="method navigator-link" hash-for-method="RegisterUser(user1, valid details, Raghu, varan, Male, ratest23@gmail.com, Test@1234, Test@1234)">RegisterUser(user1, valid details, Raghu, varan, Male, ratest23@gmail.com, Test@1234, Test@1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShopAutomation.RegisterTest" class="method navigator-link" hash-for-method="RegisterUser(user4, valid details, chndwani, abc, Female, ratest22@gmail.com, Test@1234, Test@1234)">RegisterUser(user4, valid details, chndwani, abc, Female, ratest22@gmail.com, Test@1234, Test@1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShopAutomation.LoginTest" class="method navigator-link" hash-for-method="loginUser(User1, valid, ratest1@gmail.com, Test@1234)">loginUser(User1, valid, ratest1@gmail.com, Test@1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShopAutomation.LoginTest" class="method navigator-link" hash-for-method="loginUser(User2, valid, ratest2@gmail.com, Test@1234)">loginUser(User2, valid, ratest2@gmail.com, Test@1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShopAutomation.E2ETest" class="method navigator-link" hash-for-method="purchaseProduct">purchaseProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,8 +176,8 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
               <span class="class-name">DemoWebShopAutomation.LoginTest</span>
@@ -126,93 +185,334 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginUser">
-                  </a> <!-- loginUser -->
+                  <a name="loginUser(User4, invalid, ratest4@gmail.com, Test@1237)">
+                  </a> <!-- loginUser(User4, invalid, ratest4@gmail.com, Test@1237) -->
                   <span class="method-name">loginUser</span>
-                  <div class="stack-trace">java.lang.RuntimeException: java.lang.NoClassDefFoundError: CustomUtilities/ExcelDataDriven
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:803)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:924)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NoClassDefFoundError: CustomUtilities/ExcelDataDriven
-	at DemoWebShopAutomation.LoginTest.getUserCredentials(LoginTest.java:43)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
-	... 25 more
-Caused by: java.lang.ClassNotFoundException: CustomUtilities.ExcelDataDriven
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
-	... 33 more
-
+                  <span class="parameters">(User4,invalid,ratest4@gmail.com,Test@1237)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.linkText: Log out&apos; (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at AbstractComponents.AbstractComponent.waitForElementToBeVisible(AbstractComponent.java:102)
+	at PageObjectsModel.LoginPage.loginApplication(LoginPage.java:60)
+	at DemoWebShopAutomation.LoginTest.loginUser(LoginTest.java:30)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log out&quot;}
+  (Session info: chrome=111.0.5563.149)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d88ce48cca2759e6728989cf68821b84, findElement {using=link text, value=Log out}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.149, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\raghuvr\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63428}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63428/devtoo..., se:cdpVersion: 111.0.5563.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d88ce48cca2759e6728989cf68821b84
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 18 more
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginUser(User3, invalid, ratest3@gmail.com, Test@1236)">
+                  </a> <!-- loginUser(User3, invalid, ratest3@gmail.com, Test@1236) -->
+                  <span class="method-name">loginUser</span>
+                  <span class="parameters">(User3,invalid,ratest3@gmail.com,Test@1236)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.linkText: Log out&apos; (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at AbstractComponents.AbstractComponent.waitForElementToBeVisible(AbstractComponent.java:102)
+	at PageObjectsModel.LoginPage.loginApplication(LoginPage.java:60)
+	at DemoWebShopAutomation.LoginTest.loginUser(LoginTest.java:30)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log out&quot;}
+  (Session info: chrome=111.0.5563.149)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa878f331b3887b4d22ddba2d74d5c75, findElement {using=link text, value=Log out}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.149, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\raghuvr\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63343}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63343/devtoo..., se:cdpVersion: 111.0.5563.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa878f331b3887b4d22ddba2d74d5c75
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 18 more
+... Removed 17 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">DemoWebShopAutomation.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterUser(user6, Password Mis Match, Sheetal, Raj, Female, ratest9@gmail.com, Test@1234, Test@5678)">
+                  </a> <!-- RegisterUser(user6, Password Mis Match, Sheetal, Raj, Female, ratest9@gmail.com, Test@1234, Test@5678) -->
+                  <span class="method-name">RegisterUser</span>
+                  <span class="parameters">(user6,Password Mis Match,Sheetal,Raj,Female,ratest9@gmail.com,Test@1234,Test@5678)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@class=&apos;result&apos; and contains(text(),&apos;registration completed&apos;)]&apos; (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at AbstractComponents.AbstractComponent.waitForElementToBeVisible(AbstractComponent.java:102)
+	at PageObjectsModel.RegisterPage.registerUser(RegisterPage.java:82)
+	at DemoWebShopAutomation.RegisterTest.RegisterUser(RegisterTest.java:29)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;result&apos; and contains(text(),&apos;registration completed&apos;)]&quot;}
+  (Session info: chrome=111.0.5563.149)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ca3e3d07c4819279bf02fab05668517, findElement {using=xpath, value=//div[@class=&apos;result&apos; and contains(text(),&apos;registration completed&apos;)]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.149, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\raghuvr\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63463}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63463/devtoo..., se:cdpVersion: 111.0.5563.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ca3e3d07c4819279bf02fab05668517
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 18 more
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterUser(user5, Already Existing User, Lokesh, waran, Male, ratest1@gmail.com, Test@1234, Test@1234)">
+                  </a> <!-- RegisterUser(user5, Already Existing User, Lokesh, waran, Male, ratest1@gmail.com, Test@1234, Test@1234) -->
+                  <span class="method-name">RegisterUser</span>
+                  <span class="parameters">(user5,Already Existing User,Lokesh,waran,Male,ratest1@gmail.com,Test@1234,Test@1234)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@class=&apos;result&apos; and contains(text(),&apos;registration completed&apos;)]&apos; (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at AbstractComponents.AbstractComponent.waitForElementToBeVisible(AbstractComponent.java:102)
+	at PageObjectsModel.RegisterPage.registerUser(RegisterPage.java:82)
+	at DemoWebShopAutomation.RegisterTest.RegisterUser(RegisterTest.java:29)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;result&apos; and contains(text(),&apos;registration completed&apos;)]&quot;}
+  (Session info: chrome=111.0.5563.149)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bde7ae17abee389505557310e32f134, findElement {using=xpath, value=//div[@class=&apos;result&apos; and contains(text(),&apos;registration completed&apos;)]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.149, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\raghuvr\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63399}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63399/devtoo..., se:cdpVersion: 111.0.5563.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bde7ae17abee389505557310e32f134
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 18 more
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoWebShopAutomation.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginUser(User1, valid, ratest1@gmail.com, Test@1234)">
+                  </a> <!-- loginUser(User1, valid, ratest1@gmail.com, Test@1234) -->
+                  <span class="method-name">loginUser</span>
+                  <span class="parameters">(User1,valid,ratest1@gmail.com,Test@1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginUser(User2, valid, ratest2@gmail.com, Test@1234)">
+                  </a> <!-- loginUser(User2, valid, ratest2@gmail.com, Test@1234) -->
+                  <span class="method-name">loginUser</span>
+                  <span class="parameters">(User2,valid,ratest2@gmail.com,Test@1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoWebShopAutomation.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterUser(user3, valid details, Virat, Kohli, Male, ratest21@gmail.com, Test@1234, Test@1234)">
+                  </a> <!-- RegisterUser(user3, valid details, Virat, Kohli, Male, ratest21@gmail.com, Test@1234, Test@1234) -->
+                  <span class="method-name">RegisterUser</span>
+                  <span class="parameters">(user3,valid details,Virat,Kohli,Male,ratest21@gmail.com,Test@1234,Test@1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterUser(user2, valid details, chamira, xyz, Female, ratest20@gmail.com, Test@1234, Test@1234)">
+                  </a> <!-- RegisterUser(user2, valid details, chamira, xyz, Female, ratest20@gmail.com, Test@1234, Test@1234) -->
+                  <span class="method-name">RegisterUser</span>
+                  <span class="parameters">(user2,valid details,chamira,xyz,Female,ratest20@gmail.com,Test@1234,Test@1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterUser(user1, valid details, Raghu, varan, Male, ratest23@gmail.com, Test@1234, Test@1234)">
+                  </a> <!-- RegisterUser(user1, valid details, Raghu, varan, Male, ratest23@gmail.com, Test@1234, Test@1234) -->
+                  <span class="method-name">RegisterUser</span>
+                  <span class="parameters">(user1,valid details,Raghu,varan,Male,ratest23@gmail.com,Test@1234,Test@1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterUser(user4, valid details, chndwani, abc, Female, ratest22@gmail.com, Test@1234, Test@1234)">
+                  </a> <!-- RegisterUser(user4, valid details, chndwani, abc, Female, ratest22@gmail.com, Test@1234, Test@1234) -->
+                  <span class="method-name">RegisterUser</span>
+                  <span class="parameters">(user4,valid details,chndwani,abc,Female,ratest22@gmail.com,Test@1234,Test@1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoWebShopAutomation.E2ETest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="purchaseProduct">
+                  </a> <!-- purchaseProduct -->
+                  <span class="method-name">purchaseProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\raghuvr\AppData\Local\Temp\testng-eclipse-296409870\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\raghuvr\Documents\Eclipse_Workspace\DemoWebShopAutomation\testsuites\Regression.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite parallel=&quot;methods&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;TestComponents.Listners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;DemoWebShopAutomation.LoginTest&quot;/&gt;
+      &lt;class name=&quot;DemoWebShopAutomation.E2ETest&quot;/&gt;
+      &lt;class name=&quot;DemoWebShopAutomation.RegisterTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">e2e</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">purchaseProduct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
             <div class="test-group">
               <span class="test-group-name">login</span>
               <br/>
@@ -221,52 +521,118 @@ Caused by: java.lang.ClassNotFoundException: CustomUtilities.ExcelDataDriven
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">register</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">RegisterUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(11);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginUser')
-data.setCell(0, 2, 'DemoWebShopAutomation.LoginTest')
-data.setCell(0, 3, 0);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'purchaseProduct')
+data.setCell(0, 2, 'DemoWebShopAutomation.E2ETest')
+data.setCell(0, 3, 27021);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'RegisterUser')
+data.setCell(1, 2, 'DemoWebShopAutomation.RegisterTest')
+data.setCell(1, 3, 23442);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'RegisterUser')
+data.setCell(2, 2, 'DemoWebShopAutomation.RegisterTest')
+data.setCell(2, 3, 22763);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginUser')
+data.setCell(3, 2, 'DemoWebShopAutomation.LoginTest')
+data.setCell(3, 3, 22525);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginUser')
+data.setCell(4, 2, 'DemoWebShopAutomation.LoginTest')
+data.setCell(4, 3, 22243);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginUser')
+data.setCell(5, 2, 'DemoWebShopAutomation.LoginTest')
+data.setCell(5, 3, 8439);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'RegisterUser')
+data.setCell(6, 2, 'DemoWebShopAutomation.RegisterTest')
+data.setCell(6, 3, 5948);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'RegisterUser')
+data.setCell(7, 2, 'DemoWebShopAutomation.RegisterTest')
+data.setCell(7, 3, 4074);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'RegisterUser')
+data.setCell(8, 2, 'DemoWebShopAutomation.RegisterTest')
+data.setCell(8, 3, 3875);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'RegisterUser')
+data.setCell(9, 2, 'DemoWebShopAutomation.RegisterTest')
+data.setCell(9, 3, 3676);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginUser')
+data.setCell(10, 2, 'DemoWebShopAutomation.LoginTest')
+data.setCell(10, 3, 3407);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">DemoWebShopAutomation.RegisterTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">saveReport</span>
+                <br/>
+                <span class="ignored-method-name">setupReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">DemoWebShopAutomation.E2ETest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">saveReport</span>
+                <br/>
+                <span class="ignored-method-name">setupReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -274,14 +640,227 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">DemoWebShopAutomation.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setupReport</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.E2ETest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">393 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">1417 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">1417 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginUser(User1, valid, ratest1@gmail.com, Test@1234)</span>
+                <span class="method-start">8304 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">RegisterUser(user1, valid details, Raghu, varan, Male, ratest23@gmail.com, Test@1234, Test@1234)</span>
+                <span class="method-start">8432 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.E2ETest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">purchaseProduct</span>
+                <span class="method-start">8679 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">14387 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">16745 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">17244 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">19815 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">RegisterUser(user2, valid details, chamira, xyz, Female, ratest20@gmail.com, Test@1234, Test@1234)</span>
+                <span class="method-start">22464 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginUser(User2, valid, ratest2@gmail.com, Test@1234)</span>
+                <span class="method-start">24958 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">26540 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">28367 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">28955 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">31971 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">RegisterUser(user3, valid details, Virat, Kohli, Male, ratest21@gmail.com, Test@1234, Test@1234)</span>
+                <span class="method-start">34720 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.E2ETest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">35702 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginUser(User3, invalid, ratest3@gmail.com, Test@1236)</span>
+                <span class="method-start">37506 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">38398 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">40846 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegisterUser(user4, valid details, chndwani, abc, Female, ratest22@gmail.com, Test@1234, Test@1234)</span>
+                <span class="method-start">46968 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">50844 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">53162 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">RegisterUser(user5, Already Existing User, Lokesh, waran, Male, ratest1@gmail.com, Test@1234, Test@1234)</span>
+                <span class="method-start">58507 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">60403 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">62654 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginUser(User4, invalid, ratest4@gmail.com, Test@1237)</span>
+                <span class="method-start">68033 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">82194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">84521 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">90598 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">RegisterUser(user6, Password Mis Match, Sheetal, Raj, Female, ratest9@gmail.com, Test@1234, Test@5678)</span>
+                <span class="method-start">91382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApplication</span>
+                <span class="method-start">114449 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShopAutomation.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">saveReport</span>
-                <span class="method-start">176 ms</span>
+                <span class="method-start">116765 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
